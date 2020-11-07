@@ -8,9 +8,15 @@ The code for this project can be seen in the Folder Code/MATLAB CODES/.
 # Installation
 
 Download all the documents from the folder Code/MATLAB CODES/
+
+
 Save these documents in a new folder named AMIGO2_R2019b
+
+
 Start a Matlab session and go to the AMIGO2_R2019b folder
+
 Type:
+
 
 > AMIGO_Startup
       2. Access AMIGO2 HTML Help under the MATLAB Help - Supplemental Software link.
