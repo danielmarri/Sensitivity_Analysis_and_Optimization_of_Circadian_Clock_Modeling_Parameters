@@ -1,4 +1,4 @@
-MODULENAME = mypackage 
+MODULENAME = AMIGO_python 
 
 help:
 	@echo ""
