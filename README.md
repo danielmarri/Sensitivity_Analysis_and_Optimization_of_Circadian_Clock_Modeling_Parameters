@@ -8,16 +8,19 @@ The code for this project can be seen in the Folder Sensitivity_Analysis_and_Opt
 
 # Installation
 
-Download all the documents from the folder Sensitivity_Analysis_and_Optimization_of_Circadian_Clock_Modeling_Parameters/Sensitivity_Analysis_and_Optimization_of_CC_Model_Parameters/
+Download all the documents from the folder 
+
+/Sensitivity_Analysis_and_Optimization_of_CC_Model_Parameters/
 
 
 
-Start a Matlab session and go to the AMIGO2_R2019b folder
+Start a Matlab session and change the working directory to the AMIGO2_R2019b folder
 
 Type:
 
 
 > AMIGO_Startup
+      
       2. Access AMIGO2 HTML Help under the MATLAB Help - Supplemental Software link.
 
           NOTE for MAC users: AMIGO2 incorporates some mex files to frotran optimizers. Please follow the
