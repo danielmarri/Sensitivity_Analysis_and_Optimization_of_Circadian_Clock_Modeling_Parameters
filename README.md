@@ -30,7 +30,13 @@ Type:
          
 # Run the Simulation
 
-The  Mammalian Circadian Clock Systems of Ordinary Differential Equation Model is found in the folder Code/MATLAB CODES/Model_Simulation_and_Analysis/Model_Simulation/
+The  Mammalian Circadian Clock Systems of Ordinary Differential Equation Model is found in the folder:
 
-The Sensitivity Analysis code for the Mammalian Circadian Clock Systems of Ordinary Differential Equation Model is found in the folder Sensitivity_Analysis_and_Optimization_of_Circadian_Clock_Modeling_Parameters/Sensitivity_Analysis_and_Optimization_of_CC_Model_Parameters/AMIGO2_R2019/Model_Simulation_and_Analysis/Local_and_Global_Sensitivity_Analysis/
+Sensitivity_Analysis_and_Optimization_of_CC_Model_Parameters/AMIGO2_R2019/Model_Simulation_and_Analysis/Model_Simulation/
+
+The Sensitivity Analysis code for the Mammalian Circadian Clock Systems of Ordinary Differential Equation Model is found in the folder: 
+
+Sensitivity_Analysis_and_Optimization_of_CC_Model_Parameters/AMIGO2_R2019/Model_Simulation_and_Analysis/Local_and_Global_Sensitivity_Analysis/
+
+
 
