@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<head> <title>AMIGO_PE results structure documentation for AMIGO2_R1 [July 2013]</title></head>
+<body>
+<style type="text/css">
+.tftable {font-size:12px;color:#333333;width:100%;border-width: 1px;border-color: #729ea5;border-collapse: collapse;}
+.tftable th {font-size:12px;background-color:#acc8cc;border-width: 1px;padding: 8px;border-style: solid;border-color: #729ea5;text-align:left;}
+.tftable tr {background-color:#d4e3e5;}
+.tftable td {font-size:12px;border-width: 1px;padding: 8px;border-style: solid;border-color: #729ea5;}
+.tftable tr:hover {background-color:#ffffff;}
+</style>
+<h1>AMIGO_PE results structure documentation for AMIGO2_R1 [July 2013]</h1><table class="tftable" border="1">
+<tr>  <th>Field</th>  <th> Description</th> </tr>
+<tr><th colspan = "2">results</th></tr>
+<tr><th colspan = "2">results.PEsol</th></tr>
+<tr>	<td>results.PEsol.index_global_theta	<td>indices of global parameters in the input.model.par	</tr>
+<tr>	<td>results.PEsol.index_global_theta_y0	<td>indices of global initial conditions in the input.model.st_names	</tr>
+<tr>	<td>results.PEsol.index_local_theta	<td>indices of local parameters in the input.model.par	</tr>
+<tr>	<td>results.PEsol.index_local_theta_y0	<td>indices of local initial conditions in the input.model.st_names	</tr>
+<tr>	<td>results.PEsol.n_global_theta	<td>number of global parameteres	</tr>
+<tr>	<td>results.PEsol.n_global_theta_y0	<td>number of global initial conditions	</tr>
+<tr>	<td>results.PEsol.n_local_theta	<td>number of local estimated parameters	</tr>
+<tr>	<td>results.PEsol.n_theta	<td>number of total decision variables	</tr>
+<tr><th colspan = "2">results.fit</th></tr>
+<tr>	<td>results.fit.R	<td>weighted residuals' vector	</tr>
+<tr>	<td>results.fit.Rjac	<td>Jacobian of the weighted residual vector	</tr>
+<tr>	<td>results.fit.SM	<td>Sensitivity matrix (obs or states??) for each experiment	</tr>
+<tr>	<td>results.fit.condN_SM	<td>condition number of the sensitivity matrix??	</tr>
+<tr>	<td>results.fit.conf_interval	<td>confidence interval for estimated parameters (only global?)	</tr>
+<tr>	<td>results.fit.cpu_time	<td>CPU time of the estimation	</tr>
+<tr>	<td>results.fit.f	<td>reached cost function value (duplicated? fbest)	</tr>
+<tr>	<td>results.fit.fbest	<td>reached cost function value	</tr>
+<tr>	<td>results.fit.fjac	<td>gradient of the objective function at the optimum	</tr>
+<tr>	<td>results.fit.g_FIM	<td>Fisher Information Matrix for global unknowns	</tr>
+<tr>	<td>results.fit.g_corr_mat	<td>correlation matrix for global unknowns	</tr>
+<tr>	<td>results.fit.g_var_cov_mat	<td>variance-covariance matrix for global unknowns	</tr>
+<tr>	<td>results.fit.h	<td>constraints violation penalty	</tr>
+<tr>	<td>results.fit.hjac	<td>gradient of constraints violation penalty	</tr>
+<tr>	<td>results.fit.ms	<td>simulated observables	</tr>
+<tr>	<td>results.fit.obs_conf_mat	<td>symmetric confidence intervals for observables	</tr>
+<tr>	<td>results.fit.obs_cov_mat	<td>covariance matrix for observables	</tr>
+<tr>	<td>results.fit.rSM	<td>Relative sensitivity matrix (obs or states??) for each experiment	</tr>
+<tr>	<td>results.fit.r_sens_t	<td>Relative sensitivity matrix (obs or states??) for each experiment (duplicated? rSM)	</tr>
+<tr>	<td>results.fit.rel_conf_interval	<td>relative confidence interval for estimated parameters (only global?)	</tr>
+<tr>	<td>results.fit.rel_residuals	<td>relative residuals' vector	</tr>
+<tr>	<td>results.fit.residuals	<td>residuals' vector	</tr>
+<tr>	<td>results.fit.sens_t	<td>Sensitivity matrix (obs or states??) for each experiment (duplicated? SM)	</tr>
+<tr>	<td>results.fit.thetabest	<td>optimal value of the decision variables	</tr>
+<tr>	<td>results.fit.time	<td>time data corresponding to the residuals	</tr>
+<tr><th colspan = "2">results.nlpsol</th></tr>
+<tr>	<td>results.nlpsol.act_bound	<td>decision variables on the boundary	</tr>
+<tr>	<td>results.nlpsol.bestit	<td>decision variables when the cost function improved	</tr>
+<tr>	<td>results.nlpsol.conv_curve	<td>convergence curve: time and cost function	</tr>
+<tr>	<td>results.nlpsol.cpu_time	<td>CPU time of the estimation (duplicated? results.fit.cpu_time)	</tr>
+<tr>	<td>results.nlpsol.f	<td>cost function in iterations, when the cost function improved	</tr>
+<tr>	<td>results.nlpsol.fbest	<td>optimal value of the cost function	</tr>
+<tr>	<td>results.nlpsol.neval	<td>number of function evaluation, for convergence curve	</tr>
+<tr>	<td>results.nlpsol.time	<td>CPU time for convergence curves	</tr>
+<tr>	<td>results.nlpsol.vbest	<td>optimal values of the decision variables	</tr>
+<tr><th colspan = "2">results.pathd</th></tr>
+<tr>	<td>results.pathd.AMIGO_path	<td>#RED #MISSING	</tr>
+<tr>	<td>results.pathd.FIM	<td>#RED #MISSING	</tr>
+<tr>	<td>results.pathd.conv_curve_path	<td>#RED #MISSING	</tr>
+<tr>	<td>results.pathd.corr_mat_path	<td>#RED #MISSING	</tr>
+<tr>	<td>results.pathd.fit_plot_path	<td>#RED #MISSING	</tr>
+<tr>	<td>results.pathd.input_file	<td>#RED #MISSING	</tr>
+<tr>	<td>results.pathd.multistart_hist	<td>#RED #MISSING	</tr>
+<tr>	<td>results.pathd.obs_file	<td>#RED #MISSING	</tr>
+<tr>	<td>results.pathd.obs_function	<td>#RED #MISSING	</tr>
+<tr>	<td>results.pathd.obs_plot_path	<td>#RED #MISSING	</tr>
+<tr>	<td>results.pathd.obs_sens_file	<td>#RED #MISSING	</tr>
+<tr>	<td>results.pathd.obs_sens_function	<td>#RED #MISSING	</tr>
+<tr>	<td>results.pathd.problem_folder_path	<td>problem folder path in the Results	</tr>
+<tr>	<td>results.pathd.report	<td>#RED #MISSING	</tr>
+<tr>	<td>results.pathd.report_name	<td>name of the report	</tr>
+<tr>	<td>results.pathd.residuals_plot_path	<td>#RED #MISSING	</tr>
+<tr>	<td>results.pathd.results_folder	<td>Results folder name	</tr>
+<tr>	<td>results.pathd.results_path	<td>#RED #MISSING	</tr>
+<tr>	<td>results.pathd.run_overwrite	<td>#RED #MISSING	</tr>
+<tr>	<td>results.pathd.runident	<td>#RED #MISSING	</tr>
+<tr>	<td>results.pathd.runident_cl	<td>#RED #MISSING	</tr>
+<tr>	<td>results.pathd.sens_mat_path	<td>#RED #MISSING	</tr>
+<tr>	<td>results.pathd.sens_par_path	<td>#RED #MISSING	</tr>
+<tr>	<td>results.pathd.sens_path	<td>#RED #MISSING	</tr>
+<tr>	<td>results.pathd.short_name	<td>#RED #MISSING	</tr>
+<tr>	<td>results.pathd.struct_name	<td>#RED #MISSING	</tr>
+<tr>	<td>results.pathd.struct_results	<td>#RED #MISSING	</tr>
+<tr>	<td>results.pathd.task_folder	<td>#RED #MISSING	</tr>
+<tr><th colspan = "2">results.plotd</th></tr>
+<tr>	<td>results.plotd.conf_cloud	<td>#RED #MISSING	</tr>
+<tr>	<td>results.plotd.conf_hist	<td>#RED #MISSING	</tr>
+<tr>	<td>results.plotd.contour1D_plot	<td>#RED #MISSING	</tr>
+<tr>	<td>results.plotd.contour_atol	<td>#RED #MISSING	</tr>
+<tr>	<td>results.plotd.contour_plot	<td>#RED #MISSING	</tr>
+<tr>	<td>results.plotd.contour_rtol	<td>#RED #MISSING	</tr>
+<tr>	<td>results.plotd.convergence_curve	<td>#RED #MISSING	</tr>
+<tr>	<td>results.plotd.data_plot	<td>#RED #MISSING	</tr>
+<tr>	<td>results.plotd.ecc	<td>#RED #MISSING	</tr>
+<tr>	<td>results.plotd.epssave	<td>#RED #MISSING	</tr>
+<tr>	<td>results.plotd.figsave	<td>#RED #MISSING	</tr>
+<tr>	<td>results.plotd.fit_plot	<td>#RED #MISSING	</tr>
+<tr>	<td>results.plotd.multistart_hist	<td>#RED #MISSING	</tr>
+<tr>	<td>results.plotd.n_t_plot	<td>#RED #MISSING	</tr>
+<tr>	<td>results.plotd.number_max_hist	<td>#RED #MISSING	</tr>
+<tr>	<td>results.plotd.number_max_obs	<td>#RED #MISSING	</tr>
+<tr>	<td>results.plotd.number_max_states	<td>#RED #MISSING	</tr>
+<tr>	<td>results.plotd.nx_contour	<td>#RED #MISSING	</tr>
+<tr>	<td>results.plotd.ny_contour	<td>#RED #MISSING	</tr>
+<tr>	<td>results.plotd.obs_plot	<td>#RED #MISSING	</tr>
+<tr>	<td>results.plotd.plotlevel	<td>#RED #MISSING	</tr>
+<tr>	<td>results.plotd.residuals_plot	<td>#RED #MISSING	</tr>
+<tr>	<td>results.plotd.states_plot	<td>#RED #MISSING	</tr>
+<tr><th colspan = "2">results.rank</th></tr>
+<tr>	<td>results.rank.number_int_errors	<td>#RED #MISSING	</tr>
+<tr><th colspan = "2">results.sim</th></tr>
+<tr>	<td>results.sim.obs	<td>simulated observables with high time resolution	</tr>
+<tr>	<td>results.sim.sim_data	<td>simulated observables at data times	</tr>
+<tr>	<td>results.sim.states	<td>simulated states with high time resolution	</tr>
+<tr>	<td>results.sim.tsim	<td>high resolution time-points	</tr>
+</table></body>
+</html>
