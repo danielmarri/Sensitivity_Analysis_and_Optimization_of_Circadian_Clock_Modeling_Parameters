@@ -18,6 +18,8 @@ Start a Matlab session and change the working directory to the AMIGO2_R2019b fol
 
 # Install MinGW-w64 Compiler
 
+MinGW-w64 is a compiler suite for Windows based on the GNU tool chain. It includes a GCC compiler and related tools for compiling C and C++ applications for Windows. C and C++ applications compiled with MinGW-w64 GCC can be called from MATLAB using MEX. This GCC compiler can also be helpful for other MathWorks products that require a C or C++ compiler.
+
  To install the compiler, use the Add-Ons menu.
 
 1. On the MATLAB Home tab, in the Environment section, click Add-Ons > Get Add-Ons.
