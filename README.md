@@ -10,7 +10,7 @@ The code for this project can be seen in the Folder Sensitivity_Analysis_and_Opt
 
 Download all the documents from the folder 
 
-/AMIGO_R2019/
+./AMIGO_R2019/
 
 
 
