@@ -3,7 +3,13 @@ Sensitivity Analysis and Optimization of Parameters of the Mammalian Circadian C
 
 This project is to use the Advanced Model Identification using Global Optimization (AMIGO2_R2019b) Toolbox in Matlab to discuss the Sensitivity Analysis and Optimization of Parameters of the Mammalian Circadian Clock Systems of Ordinary Differential Equation Model.
 
-The code for this project can be seen in the Folder Sensitivity_Analysis_and_Optimization_of_Circadian_Clock_Modeling_Parameters/AMIGO/
+
+# Directory information
+
+- Reports/ : Contains biweekly assignments and reports for the course
+- AMIGO/  : Contains the AMIGO_R2019 code and tests for the project 
+
+
 
 
 # Installation
