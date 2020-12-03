@@ -16,7 +16,15 @@ Download all the documents from the folder
 
 Start a Matlab session and change the working directory to the AMIGO2_R2019b folder
 
-Type:
+# Install MinGW-w64 Compiler
+
+ To install the compiler, use the Add-Ons menu.
+
+1. On the MATLAB Home tab, in the Environment section, click Add-Ons > Get Add-Ons.
+
+2. Search for MinGW or select from Features.
+
+3. Type:
 
 
 > AMIGO_Startup
