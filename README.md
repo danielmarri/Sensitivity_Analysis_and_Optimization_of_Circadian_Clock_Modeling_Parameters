@@ -43,12 +43,25 @@ AMIGO2_R2019b/Model_Simulation_and_Analysis/Model_Simulation/  folder and the  A
 # Run the Simulation
 
 The  Mammalian Circadian Clock Systems of Ordinary Differential Equation Model is found in the folder:
-
 AMIGO/AMIGO2_R2019b/Model_Simulation_and_Analysis/Model_Simulation/
 
-The Sensitivity Analysis code for the Mammalian Circadian Clock Systems of Ordinary Differential Equation Model is found in the folder: 
+run the run_My_Clock_model.m file to see the output dynamics of the system.  The run_My_Clock_model.m calls the My_Clock_model.m file wich contains the code for the systems of 
+equations for the model
 
+
+The Sensitivity Analysis code for the Mammalian Circadian Clock Systems of Ordinary Differential Equation Model is found in the folder: 
 AMIGO/AMIGO2_R2019b/Model_Simulation_and_Analysis/Local_and_Global_Sensitivity_Analysis/
 
+To get the outputs for the sensitivity analysis of the model parameters, run the run_.m file for either the local or global sensitivity analysis.
 
+
+# Results of the simulations
+
+The results of the simulation can be found in the folder ./Sensitivity_Analysis_and_Optimization_of_Circadian_Clock_Modeling_Parameters/AMIGO/AMIGO2_R2019b/Results/circadian-tutorial/'
+
+1. The SObs_circadian_run1/ folder contains the results output for the Mammalian Circadian Clock Systems of Ordinary Differential Equation Model
+
+2. The LRank_circadian_run1/ folder contains the outputs of the Local Sensitivity analysis of the model parameters 
+
+3. The GRank_circadian_run1/ folder contains the outputs of the Global Sensitivity analysis of the model parameters
 
