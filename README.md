@@ -3,14 +3,14 @@ Sensitivity Analysis and Optimization of Parameters of the Mammalian Circadian C
 
 This project is to use the Advanced Model Identification using Global Optimization (AMIGO2_R2019b) Toolbox in Matlab to discuss the Sensitivity Analysis and Optimization of Parameters of the Mammalian Circadian Clock Systems of Ordinary Differential Equation Model.
 
-The code for this project can be seen in the Folder Sensitivity_Analysis_and_Optimization_of_Circadian_Clock_Modeling_Parameters/Sensitivity_Analysis_and_Optimization_of_CC_Model_Parameters/
+The code for this project can be seen in the Folder Sensitivity_Analysis_and_Optimization_of_Circadian_Clock_Modeling_Parameters/AMIGO/
 
 
 # Installation
 
 Download all the documents from the folder 
 
-/Sensitivity_Analysis_and_Optimization_of_CC_Model_Parameters/
+/AMIGO_R2019/
 
 
 
@@ -42,11 +42,11 @@ MinGW-w64 is a compiler suite for Windows based on the GNU tool chain. It includ
 
 The  Mammalian Circadian Clock Systems of Ordinary Differential Equation Model is found in the folder:
 
-Sensitivity_Analysis_and_Optimization_of_CC_Model_Parameters/AMIGO2_R2019/Model_Simulation_and_Analysis/Model_Simulation/
+AMIGO/AMIGO2_R2019/Model_Simulation_and_Analysis/Model_Simulation/
 
 The Sensitivity Analysis code for the Mammalian Circadian Clock Systems of Ordinary Differential Equation Model is found in the folder: 
 
-Sensitivity_Analysis_and_Optimization_of_CC_Model_Parameters/AMIGO2_R2019/Model_Simulation_and_Analysis/Local_and_Global_Sensitivity_Analysis/
+AMIGO/AMIGO2_R2019/Model_Simulation_and_Analysis/Local_and_Global_Sensitivity_Analysis/
 
 
 
