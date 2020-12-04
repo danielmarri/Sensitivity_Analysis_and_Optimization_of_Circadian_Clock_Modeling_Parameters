@@ -3,7 +3,7 @@
    *    AMIGO2_R2019a [March 2019]    *
    *********************************** 
 
-Date: 03-Dec-2020
+Date: 04-Dec-2020
 Problem folder:	 Results/circadian-tutorial
 Results folder in problem folder:	 Results/circadian-tutorial/SObs_circadian_run1 
 
